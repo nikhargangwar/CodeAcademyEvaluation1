@@ -1,7 +1,7 @@
 const CalculateScoreOfGame = (arr) => {
 
     let strikeScore = 0, spareScore = 0, openScore = 0;
-
+    let strikeFlag=0,spareFlag=0;
     forEach((frame) => {
         if (frame[0] === 10) {
             strikeScore += 10
